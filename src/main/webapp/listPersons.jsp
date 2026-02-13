@@ -73,7 +73,7 @@
 									<input type="hidden" name="nachname" id="nachname" value="${item.nachname}">
 									<input type="hidden" name="geburtsdatum" id="geburtsdatum" value="${item.geburtsdatum}">
 									<input type="hidden" name="id" id="id" value="${item.getUuid()}">
-									<input type="submit" value="Updaten">
+									<input type="submit" value="Updaten" class="update-button">
 								</form>
 							</div>
 						</div>

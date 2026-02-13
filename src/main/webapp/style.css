@@ -38,12 +38,12 @@ h2, p{
 	padding-left: 10px;
 }
 
-button, .btn {
+button, .marg {
 	scale: 1;
 	transition: 1s;
 }
 
-button:hover, .btn:hover {
+button:hover, .marg:hover {
 	scale: 1.1;
 	transition: 1s;
 }
@@ -110,10 +110,11 @@ select {
   padding: 18px 25px;
   border: none;
   border-radius: 12px;
-  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.4s ease;
   box-shadow: 10px 10px 25px #4facfe;
   outline: none;
   position: relative;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 input[type="text"]:focus,
