@@ -52,7 +52,8 @@ body {
   margin: 0;
   min-height: 100vh;
   position: relative;
-  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
 }
 .container {
     background: #ffffff;
@@ -114,7 +115,6 @@ select {
   box-shadow: 10px 10px 25px #4facfe;
   outline: none;
   position: relative;
-  font-family: 'Rajdhani', sans-serif;
 }
 
 input[type="text"]:focus,
@@ -125,4 +125,33 @@ textarea:focus,
 select:focus {
   box-shadow: 20px 20px 25px #4facfe;
   transform: translateY(-5px) scale(1.02);
+}
+
+button,
+input[type="submit"],
+input[type="reset"],
+a button {
+  background-color: white;
+  padding: 18px 45px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 10px 10px 25px #667eea;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  border: none;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: white;
+  box-shadow: 20px 20px 25px #667eea;
+  transform: translateY(-8px) scale(1.1) rotateZ(2deg);
+  outline: none;
+  border: none;
+}
+
+.delete-button, .update-button{
+	padding: 10px 30px !important;
 }
